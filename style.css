@@ -13,9 +13,8 @@ h2{
     margin-top: 25px;
 }
 
-h3{
-    font-family: 'Titillium Web', sans-serif;
-
+a{
+    color:#83ADAF
 }
 
 #header {
@@ -36,19 +35,51 @@ h3{
 }
 
 .indice{
-    color:#6C839D;
-    text-align: right;
+    color:black;
+    text-align: center;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 25px;
     margin-right: 10px;
 }
+
 ul.indice li a{
-    color:#6C839D;
+    color:black;
     border-radius: 7%;
 }
 
 .desc{
     font-family: 'Titillium Web', sans-serif;
-
 }
+
+.picture{
+    border-radius: 100%;
+    line-height: 100px;
+  }
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    line-height: 30px;
+    width: 600px;
+    color: #83ADAF;
+    font-weight: bold;
+  }
+
+.description-testimonials {
+    width: 30%;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+.description-name{
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+  }
