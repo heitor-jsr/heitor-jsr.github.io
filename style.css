@@ -1,7 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #AAADC4;
+    background-image: linear-gradient(to bottom, #AAADC4, #111218)
+}
+
+h2{
+    display: block;
+    margin-top: 25px;
+}
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
 #header {
-    background-image: url('assets/img.jpg');
-    background-size: cover;
-    background-position: 50% 25%;
+    background-image: url('assets/essa.avif');
+    background-size:cover;
+    background-position: 100%;
     padding: 60px 30px 40px 30px;
 }
 
@@ -10,6 +30,25 @@
     font-weight: 300;
     font-size: 45px;
     margin-bottom: 40px;
-    color:#0a7e51;
-    text-align: left;
+    color:#6C839D;
+    text-align: right;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.indice{
+    color:#6C839D;
+    text-align: right;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px;
+}
+ul.indice li a{
+    color:#6C839D;
+    border-radius: 7%;
+}
+
+.desc{
+    font-family: 'Titillium Web', sans-serif;
+
 }
