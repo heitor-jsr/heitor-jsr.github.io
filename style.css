@@ -83,3 +83,7 @@ ul.indice li a{
     font-size: 14px;
     text-align: center;
   }
+
+div.description ul {
+    list-style-type: none;
+  }
